@@ -1,0 +1,360 @@
+{
+	"id": "266d01e2-7fa5-1122-1ad7-bb48ef24b1e2",
+	"name": "PostamanAgenda",
+	"description": "",
+	"order": [
+		"28f4484c-562a-330c-f820-3d6f9778fc08",
+		"b4200776-da40-7fcc-224b-0357b387fdc8",
+		"1a7bebee-3692-2359-4e6d-b5c81b549c06",
+		"79ecfec9-f30e-4daf-0a4d-739a5b91ff13",
+		"2f9b819c-195f-1949-d48f-599f4c5e5907",
+		"c462542d-cf7b-93a5-bb29-7df000055a82",
+		"9e80a410-1f9e-7089-fd3a-a672f9bcbe8b",
+		"8ddb10c1-8dee-14e1-15dd-64481729f643",
+		"a124edfd-b2e8-593b-91a3-5abfba5be7d0"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1567384245922,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "1a7bebee-3692-2359-4e6d-b5c81b549c06",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost/API/Service/buscarAgenda?id_agenda=1",
+			"queryParams": [
+				{
+					"key": "id_agenda",
+					"value": "1",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1567387045697,
+			"name": "http://localhost/API/Service/buscarAgenda?id_agenda=2",
+			"description": "Buscar a agenda pelo o ID",
+			"collectionId": "266d01e2-7fa5-1122-1ad7-bb48ef24b1e2",
+			"responses": []
+		},
+		{
+			"id": "28f4484c-562a-330c-f820-3d6f9778fc08",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost/API/Service/listarAgenda",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "266d01e2-7fa5-1122-1ad7-bb48ef24b1e2",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://localhost/API/Service/listarAgenda",
+			"description": "Listar as agendas salvos no banco.",
+			"descriptionFormat": "html",
+			"time": 1567384251628,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "2f9b819c-195f-1949-d48f-599f4c5e5907",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost/API/Service/updateAgenda?id_agenda=1&nome=ieleny&telefone=(70) 798798654&nascimento=1995-12-05&endereco=candeias",
+			"queryParams": [
+				{
+					"key": "id_agenda",
+					"value": "1",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "nome",
+					"value": "ieleny",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "telefone",
+					"value": "(70) 798798654",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "nascimento",
+					"value": "1995-12-05",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "endereco",
+					"value": "candeias",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1567387106151,
+			"name": "http://localhost/API/Service/updateAgenda?id_agenda=2&nome=ieleny&telefone=(70) 798798654&nascimento=1995-12-05&endereco=candeias",
+			"description": "Atualizar a Agenda",
+			"collectionId": "266d01e2-7fa5-1122-1ad7-bb48ef24b1e2",
+			"responses": []
+		},
+		{
+			"id": "79ecfec9-f30e-4daf-0a4d-739a5b91ff13",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost/API/Service/buscarNome?nome=antonio",
+			"queryParams": [
+				{
+					"key": "nome",
+					"value": "antonio",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1567387076300,
+			"name": "http://localhost/API/Service/buscarNome?nome=rosa",
+			"description": "Buscar a agenda pelo o nome",
+			"collectionId": "266d01e2-7fa5-1122-1ad7-bb48ef24b1e2",
+			"responses": []
+		},
+		{
+			"id": "8ddb10c1-8dee-14e1-15dd-64481729f643",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost/API/Service/updateEmail?id_email=1&email=ielenysilva@teste.com",
+			"queryParams": [
+				{
+					"key": "id_email",
+					"value": "1",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "email",
+					"value": "ielenysilva@teste.com",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "266d01e2-7fa5-1122-1ad7-bb48ef24b1e2",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://localhost/API/Service/updateEmail?id_email=1&email=ielenysilva@teste.com",
+			"description": "Atualizar o Email",
+			"descriptionFormat": "html",
+			"time": 1567386865411,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "9e80a410-1f9e-7089-fd3a-a672f9bcbe8b",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost/API/Service/insertEmail?id_agenda=1&email=ielenyfi@hotmail.com",
+			"queryParams": [
+				{
+					"key": "id_agenda",
+					"value": "1",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "email",
+					"value": "ielenyfi@hotmail.com",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "266d01e2-7fa5-1122-1ad7-bb48ef24b1e2",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://localhost/API/Service/insertEmail?id_agenda=1&email=ielenyfi@hotmail.com",
+			"description": "Inserir o email de acordo com a agenda.",
+			"descriptionFormat": "html",
+			"time": 1567386666834,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "a124edfd-b2e8-593b-91a3-5abfba5be7d0",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost/API/Service/buscarEmail?email=ielenyfilgueira@hotmail.com",
+			"queryParams": [
+				{
+					"key": "email",
+					"value": "ielenyfilgueira@hotmail.com",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "266d01e2-7fa5-1122-1ad7-bb48ef24b1e2",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://localhost/API/Service/buscarEmail?email=ielenyfilgueira@hotmail.com",
+			"description": "Buscar o email o nome do email",
+			"descriptionFormat": "html",
+			"time": 1567386946073,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "b4200776-da40-7fcc-224b-0357b387fdc8",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost/API/Service/insertAgenda?nome=Antonio Lazaro&endereco=STIEP&nascimento=1970-12-12&telefone=7030450796",
+			"queryParams": [
+				{
+					"key": "nome",
+					"value": "Antonio Lazaro",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "endereco",
+					"value": "STIEP",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "nascimento",
+					"value": "1970-12-12",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "telefone",
+					"value": "7030450796",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "",
+					"value": "",
+					"equals": false,
+					"description": "",
+					"enabled": false
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "266d01e2-7fa5-1122-1ad7-bb48ef24b1e2",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://localhost/API/Service/insertAgenda?nome=Antonio Lazaro&endereco=STIEP&nascimento=1970-12-12&telefone=7030450796",
+			"description": "Insert da Agenda",
+			"descriptionFormat": "html",
+			"time": 1567385610461,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "c462542d-cf7b-93a5-bb29-7df000055a82",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost/API/Service/delete?id_agenda=1",
+			"queryParams": [
+				{
+					"key": "id_agenda",
+					"value": "1",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1567387119033,
+			"name": "http://localhost/API/Service/delete?id_agenda=10",
+			"description": "Deletar o item da agenda",
+			"collectionId": "266d01e2-7fa5-1122-1ad7-bb48ef24b1e2",
+			"responses": []
+		}
+	]
+}
