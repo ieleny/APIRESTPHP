@@ -59,8 +59,9 @@ Atualizar o Email:
             </br> - id_email
             </br> - email
 			
+			
 </br>
-Buscar o Email pelo o Email:
+Buscar Email:
     </br>
 	Method: POST
     </br>
