@@ -1,43 +1,70 @@
 # APIRESTPHP
 Api rest feito em PHP nativo 
-
+</br>
 Link Localhost: http://localhost/APIRESTPHP/Service/updateAgenda
 </br>
-Link Nuvem: http://agendacontato.atspace.cc/APIRESTPHP/Service/updateAgenda
+Link Nuvem: http://agendacontato.atspace.cc/API/Service/updateAgenda
+</br>
 Parametros:
+</br>
 	- id_agenda
+</br>
 	- nome
+</br>
 	- endereco
+</br>
 	- nascimento
+</br>
 	- telefone 
-
+	
+</br>
 Deletar a Agenda:
+</br>
     Method: DELETE
+	</br>
     Link Localhost: http://localhost/APIRESTPHP/Service/delete
-    Link Nuvem: http://agendacontato.atspace.cc/APIRESTPHP/Service/delete
-    Parametros:
+    </br>
+	Link Nuvem: http://agendacontato.atspace.cc/API/Service/delete
+    </br>
+	Parametros:
+	</br>
             - id_agenda     
-
+</br>
 Inserir o Email:
+</br>
     Method: POST
-    Link Localhost: http://localhost/APIRESTPHP/Service/insertEmail
-    Link Nuvem: http://agendacontato.atspace.cc/APIRESTPHP/Service/insertEmail
-    Parametros:
+</br>
+	Link Localhost: http://localhost/APIRESTPHP/Service/insertEmail
+</br>
+	Link Nuvem: http://agendacontato.atspace.cc/API/Service/insertEmail
+</br>
+	Parametros:
+	</br>
             - id_agenda
+	</br>
             - email
-
+</br>
 Atualizar o Email:
-    Method: PUT
-    Link Localhost: http://localhost/APIRESTPHP/Service/updateEmail
-    Link Nuvem: http://agendacontato.atspace.cc/APIRESTPHP/Service/updateEmail
-    Parametros:
-            - id_email
-            - email
-
+    </br>s
+	Method: PUT
+    </br>
+	Link Localhost: http://localhost/APIRESTPHP/Service/updateEmail
+    </br>
+	Link Nuvem: http://agendacontato.atspace.cc/API/Service/updateEmail
+    </br>
+	Parametros:
+            </br> - id_email
+            </br> - email
+</br>
 Buscar o Email pelo o Email:
-    Method: POST
-    Link Localhost: http://localhost/APIRESTPHP/Service/buscarEmail
-    Link Nuvem:  http://agendacontato.atspace.cc/APIRESTPHP/Service/buscarEmail
-    Parametros:
+    </br>
+	Method: POST
+    </br>
+	Link Localhost: http://localhost/APIRESTPHP/Service/buscarEmail
+    </br>
+	Link Nuvem:  http://agendacontato.atspace.cc/API/Service/buscarEmail
+    </br>
+	Parametros:
+	</br>
             - email
     
