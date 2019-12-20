@@ -1,6 +1,7 @@
 # APIRESTPHP
 Api rest feito em PHP nativo 
-</br>
+
+</br></br>
 Link Localhost: http://localhost/APIRESTPHP/Service/updateAgenda
 </br>
 Link Nuvem: http://agendacontato.atspace.cc/API/Service/updateAgenda
@@ -28,7 +29,8 @@ Deletar a Agenda:
     </br>
 	Parametros:
 	</br>
-            - id_agenda     
+            - id_agenda   
+			
 </br>
 Inserir o Email:
 </br>
@@ -43,9 +45,10 @@ Inserir o Email:
             - id_agenda
 	</br>
             - email
+	</br>	
 </br>
 Atualizar o Email:
-    </br>s
+    </br>
 	Method: PUT
     </br>
 	Link Localhost: http://localhost/APIRESTPHP/Service/updateEmail
@@ -55,6 +58,7 @@ Atualizar o Email:
 	Parametros:
             </br> - id_email
             </br> - email
+			
 </br>
 Buscar o Email pelo o Email:
     </br>
